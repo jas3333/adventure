@@ -1,0 +1,30 @@
+[
+    {
+        "model": "gpt-3.5-turbo",
+        "messages": [
+            {
+                "role": "system",
+                "content": [
+                    "Your task is to create a description of a room like an old text",
+                    "adventure game based on the provided data. Description of the room is all that is needed.",
+                    "Please do not respond with things like 'what will you do next'. Description only."
+                ]
+            },
+            { "role": "user", "content": "" }
+        ]
+    },
+    {
+        "model": "gpt-3.5-turbo",
+        "messages": [
+            {
+                "role": "system",
+                "content": [
+                    "Interact with the user based on the provided data. Avoid responding with things like",
+                    "'what will you do next'. Roleplay any characters in the scene and create scenarios based",
+                    "on the users actions."
+                ]
+            },
+            { "role": "user", "content": "" }
+        ]
+    }
+]

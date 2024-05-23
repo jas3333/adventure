@@ -1,0 +1,22 @@
+[
+    {
+        "room_name": "Rundown Streets",
+        "room_desc": "Rundown city streets, dark atmosphere, single building with a locked door.",
+        "room_characters": ["Female leaning against the wall smoking"],
+        "room_notes": "A woman blocks the door to the building. The door is locked and the player must convince the woman to let them in.",
+        "room_items": [],
+        "room_locked": 0,
+        "updated": 0,
+        "exits": [1, -1, -1, -1]
+    },
+    {
+        "room_name": "Dark hallway",
+        "room_desc": "Inside the building. It is a dark hallway with creepy vibes.",
+        "room_characters": "Creepy doll that can talk",
+        "room_notes": "The doll is hiding something. Player needs to find a way out.",
+        "room_items": ["flashlight"],
+        "room_locked": 1,
+        "updated": 0,
+        "exits": [-1, -1, 0, -1]
+    }
+]
